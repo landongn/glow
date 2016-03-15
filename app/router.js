@@ -6,6 +6,10 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('infinite-scroll');
+  this.route('list');
+  this.route('grid');
+  this.route('master-detail');
 });
 
 export default Router;
